@@ -1,0 +1,38 @@
+.header-message {
+  text-align: center;
+}
+
+.grid {
+  height: 600px;
+  width: 500px;
+  background-color: wheat;
+  position: absolute;
+  left: 30%;
+  overflow: hidden;
+}
+
+.platform {
+  width: 80px;
+  height: 15px;
+  position: absolute;
+  background-color: green;
+  border-radius: 5px;
+}
+
+.doodle {
+  background-image: url("doodle.png");
+  background-size: contain;
+  position: absolute;
+  bottom: 0;
+  width: 80px;
+  height: 80px;
+  transition: all 10ms steps(4, jump-start);
+}
+
+#start-btn {
+  border-radius: 5px;
+  width: 80px;
+  height: 40px;
+  background-color: greenyellow;
+  position: absolute;
+}
